@@ -1,0 +1,102 @@
+html {
+  background: url(woman1.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+a {
+  position: absolute;
+  height: 20px;
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+  text-decoration: none;
+  flex: none;
+  flex-grow: 0;
+}
+a#catalog {
+  width: 62px;
+  order: 0;
+}
+a#magazin {
+  left: 85px;
+  width: 76px;
+  order: 1;
+}
+a#pokupatel {
+  left: 184px;
+  width: 97px;
+  order: 2;
+}
+a#kontakt {
+  left: 304px;
+  width: 74px;
+  order: 3;
+}
+input {
+  position: absolute;
+  top: 12.25px;
+  left: 1139.71px;
+  gap: 4px;
+  width: 280px;
+  height: 35px;
+  background: rgba(217, 217, 217, 0.2);
+  border-radius: 3px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+input::placeholder {
+  position: absolute;
+  width: 52px;
+  height: 15px;
+  left: 37.57px;
+  top: 9.5px;
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 101.7%;
+  color: #ffffff;
+}
+.fa {
+  background: url(vector.svg) no-repeat;
+}
+.input-icons i {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  min-width: 40px;
+}
+
+.input-field {
+  width: 280px;
+  padding: 10px;
+  text-align: center;
+}
+img {
+  position: absolute;
+  left: 431.29px;
+  top: 15.75px;
+  gap: 73px;
+  width: 684.43px;
+  height: 28px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
